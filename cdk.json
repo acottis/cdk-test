@@ -35,6 +35,20 @@
     "@aws-cdk/core:target-partitions": [
       "aws",
       "aws-cn"
-    ]
+    ],
+    "dev": {
+      "api": {
+        "name": "Rusty Cloud API - DEV",
+        "description": "My Rusty Cloud Restful API",
+        "protocol": "HTTP"
+      }
+    },
+    "prod": {
+      "api": {
+        "name": "Rusty Cloud API - DEV",
+        "description": "My Rusty Cloud Restful API",
+        "protocol": "HTTP"
+      }
+    }
   }
 }
